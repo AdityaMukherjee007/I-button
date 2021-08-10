@@ -1,0 +1,48 @@
+//Disclaimer
+
+<div class="modal fade" id="mydisclamir" role="dialog">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="modal-head-custom form-group">
+
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="fa fa-window-close" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <p>
+                    <h3>
+                        Disclaimer for Image Upload
+                    </h3>
+                    <hr />
+                    <br />
+                    <h4>
+                        1. For Logo Image should be like Autobot Logo
+                    </h4>
+                        <br />
+                        <h4>  2. For Tool there is no Restriction.</h4>
+                   
+                   <br />
+        3. Upon completion of work, 05 clear images covering each angle of the facility provided.
+                    <br /> <br /> <br />
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+//Image
+ <div class="col-md-1" style="margin-left: -20px;margin-top: 8px;">
+     
+
+                        <img  id="imgeyeicon"src="~/Images/Alumini/i btn.png" width="20"/>
+                    </div>
+                    
+//javascript
+                    
+<script>
+    $("#imgeyeicon").click(function () {
+        $("#mydisclamir").modal("show");
+
+    });
+</script>
